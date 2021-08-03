@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Main Game Template\Script\Editor\EnumEditor.cs" />
+     <None Include="Assets\ExternalDependencyManager\Editor\external-dependency-manager_version-1.2.165_manifest.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -279,6 +280,33 @@
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>E:/tunnel plane/Library/PackageCache/com.unity.collab-proxy@1.7.1/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.PackageManagerResolver_v1.2.165">
+        <HintPath>E:/tunnel plane/Assets/ExternalDependencyManager/Editor/Google.PackageManagerResolver_v1.2.165.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.JarResolver_v1.2.165">
+        <HintPath>E:/tunnel plane/Assets/ExternalDependencyManager/Editor/Google.JarResolver_v1.2.165.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandler">
+        <HintPath>E:/tunnel plane/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.IOSResolver_v1.2.165">
+        <HintPath>E:/tunnel plane/Assets/ExternalDependencyManager/Editor/Google.IOSResolver_v1.2.165.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.VersionHandlerImpl_v1.2.165">
+        <HintPath>E:/tunnel plane/Assets/ExternalDependencyManager/Editor/Google.VersionHandlerImpl_v1.2.165.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>E:/tunnel plane/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -672,6 +700,10 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{552ee1d8-951c-6163-7ec7-254c06b726b8}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{7d1c1037-da9e-2840-c7a6-89b1a0ac5998}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

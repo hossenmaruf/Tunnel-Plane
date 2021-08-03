@@ -30,8 +30,8 @@ public class PlayerMove : MonoBehaviour {
     {
         if (PlayerAnimation != null)
             PlayerAnimation.Play();
-            
        
+        
     }
 
     private void FixedUpdate()
@@ -42,6 +42,7 @@ public class PlayerMove : MonoBehaviour {
         if (Input.GetMouseButtonDown(0))
         {
             mouseCurrentPos = mousePreviousPos = Camera.main.ScreenToViewportPoint(Input.mousePosition);
+             
         }
         else if (Input.GetMouseButton(0))
         {
@@ -55,6 +56,7 @@ public class PlayerMove : MonoBehaviour {
             speed *= -sign;
             degress = speed;
             mousePreviousPos = mouseCurrentPos;
+         
            
           
         }
@@ -90,7 +92,7 @@ public class PlayerMove : MonoBehaviour {
     }
     void resultspanleshow()
     {
-        print("INNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN");
+      
         UIManager.Instacne.ShowResult();
     }
 

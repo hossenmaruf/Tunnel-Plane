@@ -48,7 +48,7 @@ MonoBehaviour:
   bRotate: 1
   LeftAngle: 60
   RightAngle: 60
-  RotateSpeed: 30
+  RotateSpeed: 20
   Dir: 1
   Type: 0
   TargetAngle: 60

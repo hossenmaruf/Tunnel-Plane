@@ -5,21 +5,21 @@ using UnityEngine;
 public class Spawner : MonoBehaviour {
     [HideInInspector]
     public Transform PlayerTransform;
-    private float m_fBeginLine;// check the ball whether enter the next line. 
-    public float Cell_Z = 3;//CellZ is the basic unit
+    private float m_fBeginLine;// 
+    public float Cell_Z = 3;
     public float WindowForwardOffset = 10f;//the Bottom of the Window.
     public float WindowBackOffset = -10f;//the Top of the Window.
     public int CubeCellCount = 10;//The distance between two barrages = CubeCellCount * CellZ.
-    public int TubeCellCount = 4;//The distance between two barrages = TubeCellCount * CellZ.
+    public int TubeCellCount = 4;//The dista
     public float CoinProbability = 0.1f;//The probability of the coin to generated.
-    public float BeginDistance = 30;//The begin distance of the spawner to generate the barrage.
+    public float BeginDistance = 30;//The begin d
     public Color CubeColor;// The Color of the Barrage.
     private int m_CubeRemainCellCount;// remain cell count
     private int m_TubeRemainCellCount;// remain tube count
     private int m_CurrentLine = 0;// current line of ball
     private int m_PreLine = 0;// previous line of ball
-    private float m_TubePosition_Z = 20;// the tube position
-    private List<float> m_BarrageZPosList = new List<float>();// the position of each barrage
+    private float m_TubePosition_Z = 20;
+    private List<float> m_BarrageZPosList = new List<float>();
     public List<float> BarrageZposList
     {
         get

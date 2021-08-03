@@ -11,12 +11,8 @@ public class SnakeMove : MonoBehaviour {
         Vector3[] vertexs = mf.mesh.vertices;
         float max = vertexs.Max(v => v.y);
         float min = vertexs.Min(v => v.y);
-        Debug.Log(min + "  " + max);
+     
     }
 	
-	// Update is called once per frame
-	void Update () {
-        
 
-    }
 }

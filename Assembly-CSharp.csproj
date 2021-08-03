@@ -36,47 +36,49 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Main Game Template\Script\GameManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\Common.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\StartPanel.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\MessagePanel.cs" />
-     <Compile Include="Assets\Main Game Template\Script\SpawnItem.cs" />
-     <Compile Include="Assets\Main Game Template\Script\ObjectPoolManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\ScoreManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\Cube1.cs" />
-     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Blimp.cs" />
-     <Compile Include="Assets\Main Game Template\Script\RuleManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\NativeShare.cs" />
-     <Compile Include="Assets\Main Game Template\Script\AudioManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\BlockColorManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\UIManager.cs" />
-     <Compile Include="Assets\Main Game Template\Script\Rule.cs" />
      <Compile Include="Assets\Main Game Template\Script\Spawner.cs" />
-     <Compile Include="Assets\Main Game Template\Script\ObjectRegister.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\ResultPanel.cs" />
-     <Compile Include="Assets\Main Game Template\Script\HSBColor.cs" />
-     <Compile Include="Assets\Main Game Template\Script\SnakeMove.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\TubePanel.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\SkinPanel.cs" />
-     <Compile Include="Assets\Main Game Template\Script\PlayerMove.cs" />
-     <Compile Include="Assets\Main Game Template\Script\Tube.cs" />
-     <Compile Include="Assets\Main Game Template\Script\BallMovement.cs" />
-     <Compile Include="Assets\Main Game Template\Script\FingerMove.cs" />
-     <Compile Include="Assets\Main Game Template\Script\FingerPoint.cs" />
-     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Plane.cs" />
-     <Compile Include="Assets\Main Game Template\Script\CubeRotate.cs" />
-     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Spitfire.cs" />
-     <Compile Include="Assets\Main Game Template\Script\ScoreText3D.cs" />
-     <Compile Include="Assets\Main Game Template\Script\CoinCollider.cs" />
-     <Compile Include="Assets\Main Game Template\Script\UI\GamePanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\NativeShare.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\UIManager.cs" />
      <Compile Include="Assets\Main Game Template\Script\UI\BuyPanel.cs" />
-     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\EdgePlaneControl.cs" />
-     <Compile Include="Assets\Main Game Template\Script\TubeTexture.cs" />
-     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\GatelingGun.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\StartPanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\GamePanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\SkinPanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\SpawnItem.cs" />
      <Compile Include="Assets\Main Game Template\Script\Skin.cs" />
      <Compile Include="Assets\Main Game Template\Script\CameraFollowController.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\MessagePanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\SnakeMove.cs" />
+     <Compile Include="Assets\Main Game Template\Script\BallMovement.cs" />
+     <Compile Include="Assets\Main Game Template\Script\CubeRotate.cs" />
+     <Compile Include="Assets\Main Game Template\Script\Cube1.cs" />
+     <Compile Include="Assets\Main Game Template\Script\ObjectPoolManager.cs" />
+     <Compile Include="Assets\Main Game Template\Script\RuleManager.cs" />
+     <Compile Include="Assets\Main Game Template\Script\HSBColor.cs" />
+     <Compile Include="Assets\Main Game Template\Script\Tube.cs" />
+     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\EdgePlaneControl.cs" />
+     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Blimp.cs" />
+     <Compile Include="Assets\Main Game Template\Script\FingerMove.cs" />
+     <Compile Include="Assets\Main Game Template\Script\ScoreManager.cs" />
+     <Compile Include="Assets\Main Game Template\Script\Rule.cs" />
+     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\GatelingGun.cs" />
+     <Compile Include="Assets\Main Game Template\Script\TubeTexture.cs" />
+     <Compile Include="Assets\Main Game Template\Script\GameManager.cs" />
+     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Plane.cs" />
+     <Compile Include="Assets\Main Game Template\AwesomeCartoonPlanes\Scripts\Spitfire.cs" />
+     <Compile Include="Assets\Main Game Template\Script\ScoreText3D.cs" />
+     <Compile Include="Assets\Main Game Template\Script\Common.cs" />
+     <Compile Include="Assets\Main Game Template\Script\ObjectRegister.cs" />
+     <Compile Include="Assets\Main Game Template\Script\CoinCollider.cs" />
+     <Compile Include="Assets\Main Game Template\Script\AudioManager.cs" />
+     <Compile Include="Assets\Main Game Template\Script\PlayerMove.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\TubePanel.cs" />
+     <Compile Include="Assets\Main Game Template\Script\BlockColorManager.cs" />
+     <Compile Include="Assets\Main Game Template\Script\UI\ResultPanel.cs" />
+     <Compile Include="Assets\AdManager.cs" />
      <None Include="Assets\Main Game Template\Materials\3Dtext.shader" />
      <None Include="Assets\Main Game Template\Materials\tube.shader" />
+     <None Include="Assets\GoogleMobileAds\link.xml" />
+     <None Include="Assets\GoogleMobileAds\GoogleMobileAds_version-6.0.2_manifest.txt" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -292,6 +294,18 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>E:/tunnel plane/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Core">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Unity">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+        <HintPath>E:/tunnel plane/Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -670,6 +684,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{7d1c1037-da9e-2840-c7a6-89b1a0ac5998}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

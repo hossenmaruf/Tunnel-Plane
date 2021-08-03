@@ -72,7 +72,6 @@ MonoBehaviour:
   ZSpeed: 25
   R: 2.333
   PlayerAnimation: {fileID: 0}
-  videoPlayer: {fileID: 5001582416305601026, guid: 6f391c6265a000b45a2d23a2f526076c, type: 3}
 --- !u!143 &143503251332301120
 CharacterController:
   m_ObjectHideFlags: 0
@@ -108,15 +107,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalPosition.x
@@ -132,11 +131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.9945219
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.10452837
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalRotation.y
@@ -148,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 434884, guid: a3e9bd2d875ca52428801bc00f70c240, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y

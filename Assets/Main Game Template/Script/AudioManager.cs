@@ -6,6 +6,7 @@ public class AudioManager : MonoBehaviour {
     public AudioClip GetScoreClip;
     public AudioClip DeathClip;
     public AudioClip GetCoinClip;
+     
     private static AudioManager instance;
     public static AudioManager Instacne
     {
@@ -21,6 +22,7 @@ public class AudioManager : MonoBehaviour {
             instance = this;
     }
 
+   
     public void PlayGetScoreAudio()
     {
         AudioSource.PlayClipAtPoint(GetScoreClip, Camera.main.transform.position);
@@ -35,4 +37,6 @@ public class AudioManager : MonoBehaviour {
     {
         AudioSource.PlayClipAtPoint(GetCoinClip, Camera.main.transform.position);
     }
+
+    
 }

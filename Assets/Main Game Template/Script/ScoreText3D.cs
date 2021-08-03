@@ -12,7 +12,7 @@ public class ScoreText3D : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        transform.Translate(new Vector3(0, 0, -10 * Time.deltaTime));
+        transform.Translate(new Vector3(0, 0, -5 * Time.deltaTime));
 		
 	}
 }

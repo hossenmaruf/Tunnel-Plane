@@ -27,6 +27,8 @@ public class ResultPanel : MonoBehaviour {
 
     public void Restart()
     {
+
+        AdManager.instance.ShowFullScreenAd() ;
         SceneManager.LoadScene("main");
     }
 }
